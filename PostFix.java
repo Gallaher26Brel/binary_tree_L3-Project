@@ -1,9 +1,9 @@
-/* préparé par
-ALTÉMA Emaude
-CHARLES Gallahër-Brel
+/* prÃ©parÃ© par
+ALTÃ‰MA Emaude
+CHARLES GallahÃ«r-Brel
 LAFONTANT Christian Donatello
 MATHURIN Bloworlf
-PÉLICIER Lorgensky
+PÃ‰LICIER Lorgensky
 */
 
 import java.util.ArrayDeque;
@@ -66,8 +66,8 @@ public class PostFix {
 		Stack<String> tempo = new Stack<String>();
 		
 		sc = new Scanner(System.in);
-		System.out.println("Entrez une expression postfixée: ");
-		System.out.println("Veuillez séparer les opérateurs des opérandes par un espace.");
+		System.out.println("Entrez une expression postfixÃ©e: ");
+		System.out.println("Veuillez sÃ©parer les opÃ©rateurs des opÃ©randes par un espace.");
 		System.out.println("Exemple 1 1 +");
 		System.out.println();
 		ArrayList<String> list ;
@@ -114,7 +114,7 @@ public class PostFix {
 			}
 			            			  
 		}
-		System.out.println("L'expression préfixée est: ");
+		System.out.println("L'expression prÃ©fixÃ©e est: ");
 		System.out.println(operat.pop());
 		//--------------------------finToPrefix-------------------------
 		
